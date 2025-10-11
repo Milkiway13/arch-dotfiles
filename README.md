@@ -51,6 +51,12 @@ The script will back up your existing configuration files to `~/.config/filename
 | `Super + Ctrl + (←,→,↑,↓)`  | Resize window                             |
 | `Super + [1-9]`       | Switch to workspace                             |
 | `Super + Shift + [1-9]` | Move window to workspace                      |
+| `Volume Up`           | Increase volume                                 |
+| `Volume Down`         | Decrease volume                                 |
+| `Mute`                | Mute audio                                      |
+| `Mic Mute`            | Mute microphone                                 |
+| `Super + ]`           | Increase brightness                             |
+| `Super + [`           | Decrease brightness                             |
 
 ## 🐚 Shell
 
