@@ -5,3 +5,4 @@
 .*\.md
 .*\.sh
 .*\.png
+.gitignore
