@@ -1,13 +1,3 @@
-add_newline = true
-
-[character]
-error_symbol = "[ & ](bold red)"
-success_symbol = "[ & ](bold green)"
-
-[directory]
-read_only = " 🔒"
-truncation_symbol = "…/"
-
 [hostname]
 format = "[$ssh_symbol$hostname]($style) "
 ssh_only = false
@@ -16,6 +6,15 @@ style = "bold purple"
 [username]
 format = "[$user]($style)@"
 show_always = true
+style_user = "bold yellow"
+
+[directory]
+read_only = " 🔒"
+truncation_symbol = "…/"
+
+[character]
+error_symbol = "[ & ](bold red)"
+success_symbol = "[ & ](bold green)"
 
 # Battery check takes ~66ms
 [battery]
