@@ -8,8 +8,7 @@ setopt SHARE_HISTORY
 setopt correct
 setopt autocd
 
-bindkey '^[[A' history-beginning-search-backward
-bindkey '^[[B' history-beginning-search-downward
+bindkey "^[[1;5A" history-beginning-search-backward
 
 autoload -Uz compinit && compinit
 
