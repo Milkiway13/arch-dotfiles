@@ -120,4 +120,5 @@ The script will back up your existing configuration files to `~/.config/filename
 - 📁 **[Ranger](https://github.com/ranger/ranger):** A console file manager with VI key bindings and image previews.
 - 📖 **[Zathura](https://pwmt.org/projects/zathura/):** A highly customizable document viewer with VI-like keybindings and a Gruvbox theme.
 - 🦇 **[Bat](https://github.com/sharkdp/bat):** A `cat(1)` clone with wings, using the `gruvbox-dark` theme for syntax highlighting.
+- **[Fastfetch](https://github.com/fastfetch-cli/fastfetch)** A system info utility, that shows your OS, WM, Kernel and etc.
 
