@@ -8,12 +8,22 @@
 ![screenshot](./screenshot.png)
 
 A collection of my personal dotfiles for a consistent and beautiful Gruvbox-themed experience on Arch Linux with the Hyprland compositor.
+This was repository made as backup of my configs.
+Original configuration - https://github.com/Andrey0189/arch-dotfiles
 
+## Changes
+ - Changed keybinds to comfortable to me
+ - Added some scripts for `fuzzel`, such as calculator, bluetooth and etc.
+ - Changed windowrules(workspaces for apps, noinitialfocus for steam)
+ - Changed waybar(workspaces now have numbers instead of pictures and changed time format to 12-hour)
+ - Added lots of wallpapers
+ - Added fastfetch config
+ 
 ## 🚀 Installation
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/Andrey0189/arch-dotfiles
+    git clone https://github.com/Milkiway13/arch-dotfiles
     cd arch-dotfiles
     ```
 2.  Run the installation script:
@@ -36,31 +46,31 @@ The script will back up your existing configuration files to `~/.config/filename
 
 | Keybinding            | Description                                     |
 | :-------------------- | :---------------------------------------------- |
-| `Super + Shift + Return` | Open terminal                                |
-| `Super + Shift + C`   | Kill active window                              |
-| `Super + Shift + Q`   | Exit Hyprland                                   |
-| `Super + R`           | Open file manager (`ranger`)                    |
-| `Super + F`           | Toggle floating                                 |
-| `Super + Shift + F`   | Toggle fullscreen                               |
-| `Super + D`           | Open application menu (`fuzzel`)                |
+| `Super + Return`      | Open terminal                                |
+| `Super + Q`           | Kill active window                              |
+| `Super + Delete`      | Exit Hyprland                                   |
+| `Super + E`           | Open file manager (`nemo`) (you can change it to `ranger`)                    |
+| `Super + T`           | Toggle floating                                 |
+| `Super + F`           | Toggle fullscreen                               |
+| `Super + S`           | Open application menu (`fuzzel`)                |
 | `Super + Shift + P`   | Pin window                                      |
 | `Super + J`           | Toggle split                                    |
-| `Super + E`           | Open emoji picker (`bemoji`)                    |
+| `Super + Shift + E`   | Open emoji picker (`bemoji`)                    |
 | `Super + V`           | Open clipboard history (`cliphist`)             |
-| `Super + B`           | Reload Waybar config                            |
-| `Super + Shift + B`   | Toggle Waybar visibility                        |
 | `Super + L`           | Lock screen (`hyprlock`)                        |
-| `Super + P`           | Launch hyprpicker                               |
 | `Super + N`           | Open notification center (`swaync`)             |
-| `Super + Shift + O`   | Pass key to OBS                                 |
-| `Print`               | Take screenshot (`grimblast`)                   |
+| `Print`               | Take screenshot (`grimblast`)|
+| `Super + B`           | Open browser (`zen-browser` by default)     |
+| `Super + C`           | Open calculator in `fuzzel` |
+| `Super + X`           | Open power menu in `fuzzel` |
+| `Super + P`           | Change output device via `fuzzel` |
+| `Super + Shift + B`   | Open bluetooth manager (`bzmenu`) |
+| `Super + Shift + T`   | Open translator (`translate-shell`) |
 | `Super + (←,→,↑,↓)`   | Move focus                                      |
 | `Super + Shift + (←,→,↑,↓)` | Swap window                               |
 | `Super + Ctrl + (←,→,↑,↓)`  | Resize window                             |
 | `Super + [1-9]`       | Switch to workspace                             |
 | `Super + Shift + [1-9]` | Move window to workspace                      |
-| `Super + S`           | Toggle special workspace                        |
-| `Super + Shift + S`   | Move window to special workspace                |
 | `F1`                | Mute audio                                      |
 | `F2`         | Decrease volume                                 |
 | `F3`           | Increase volume                                 |
@@ -70,12 +80,6 @@ The script will back up your existing configuration files to `~/.config/filename
 | `Super + Mouse`       | Move/Resize window                              |
 
 ## 🐚 Shell
-
-### Zsh ⚡
-
-- `.zshrc` configured for an enhanced interactive experience.
-- `autocd`, `correct` options for convenience.
-- Useful aliases like `ls='eza --icons always'` and `v='nvim'`.
 
 ### Starship Prompt 🚀
 
