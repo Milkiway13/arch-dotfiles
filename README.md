@@ -8,7 +8,9 @@
 ![screenshot](./screenshot.png)
 
 A collection of my personal dotfiles for a consistent and beautiful Gruvbox-themed experience on Arch Linux with the Hyprland compositor.
-This was repository made as backup of my configs.
+
+This repository was made as backup of my configs.
+
 Original configuration - https://github.com/Andrey0189/arch-dotfiles
 
 ## Changes
