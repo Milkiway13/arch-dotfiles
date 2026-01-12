@@ -20,6 +20,7 @@ Original configuration - https://github.com/Andrey0189/arch-dotfiles
  - Changed waybar(workspaces now have numbers instead of pictures and changed time format to 12-hour)
  - Added lots of wallpapers
  - Added fastfetch config
+ - Added NeoVim with LazyVim config and Gruvbox theme
  
 ## 🚀 Installation
 
@@ -121,4 +122,5 @@ The script will back up your existing configuration files to `~/.config/filename
 - 📖 **[Zathura](https://pwmt.org/projects/zathura/):** A highly customizable document viewer with VI-like keybindings and a Gruvbox theme.
 - 🦇 **[Bat](https://github.com/sharkdp/bat):** A `cat(1)` clone with wings, using the `gruvbox-dark` theme for syntax highlighting.
 - **[Fastfetch](https://github.com/fastfetch-cli/fastfetch)** A system info utility, that shows your OS, WM, Kernel and etc.
+- **[NeoVim](https://github.com/neovim/neovim)** A CLI text editor with [LazyVim](https://github.com/LazyVim/LazyVim) preinstalled and Gruvbox theme.
 
