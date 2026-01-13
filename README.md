@@ -39,8 +39,6 @@ Original configuration - https://github.com/Andrey0189/arch-dotfiles
     > mkdir -p ~/.config/tmux/plugins && git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
     > ```
 
-The script will back up your existing configuration files to `~/.config/filename.bak` and `~/.zshrc.bak` before copying the new files.
-
 ## 🖼️ Window Manager: Hyprland
 
 [Hyprland](https://hyprland.org/) is a dynamic tiling Wayland compositor that doesn't sacrifice on looks. ✨
