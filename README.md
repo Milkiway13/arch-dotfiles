@@ -1,3 +1,11 @@
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
+![Wayland](https://img.shields.io/badge/Wayland-000000?style=for-the-badge&logo=wayland&logoColor=white)
+![Hyprland](https://img.shields.io/badge/Hyprland-00add8?style=for-the-badge)
+
+![screenshot](./screenshot.png)
+
 # My Gruvbox-Themed Arch Linux Dotfiles 🎨
 
 A collection of my personal dotfiles for a consistent and beautiful Gruvbox-themed experience on Arch Linux using the Hyprland compositor.
