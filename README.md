@@ -25,7 +25,8 @@ This repository serves as a backup of my personal configurations.
 * Integrated NeoVim with the LazyVim framework and Gruvbox theme.
 
 <details>
-<summary>Showcase of fuzzel scripts</summary>
+<summary>Showcases of fuzzel scripts</summary>
+  
 # Bluetooth manager ```SUPER + SHIFT + B```
 ![screenshot](./bluetooth.png)
 
