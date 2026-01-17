@@ -10,5 +10,4 @@ cp -r ./wallpapers ~/Pictures/
 mkdir -p ~/.config/milki_dots/
 cp -r ./themes/. ~/.config/milki_dots/
 cp -r ./theme-changers ~/.local/bin/
-cp -r ./gtk-themes/. ~/.themes/
-gsettings set org.gnome.desktop.interface gtk-theme "Gruvbox-Dark"
+
