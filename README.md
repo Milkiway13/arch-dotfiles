@@ -44,6 +44,7 @@ chmod +x install.sh
 | `Super + C` | Open calculator via `fuzzel` |
 | `Super + X` | Open power menu via `fuzzel` |
 | `Super + P` | Change audio output device via `fuzzel` |
+| `Super + I` | Change theme via `fuzzel` |
 | `Super + Shift + B` | Open Bluetooth manager (`bzmenu`) |
 | `Super + Shift + T` | Open translator (`translate-shell`) |
 | `Super + Arrow Keys` | Move focus |
